@@ -13,10 +13,10 @@ public class SnakeAndLadderUC4 {
             }
             else if (option_check == 1){
                 option_check += diceValue;
-                System.out.println("ladder come");
+                System.out.println("ladder found");
             }
             else{
-                System.out.println("snake come");
+                System.out.println("snake found");
                 if ((current_position - diceValue)<0)
                 {
                     current_position = 0;
